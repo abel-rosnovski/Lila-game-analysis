@@ -73,7 +73,7 @@ def world_to_minimap(x, z, map_name):
     return pixel_x, pixel_y
 
 def load_map_image(map_name):
-    base_path = "player_data/minimaps"
+    base_path = "minimaps"
     
     png_path = os.path.join(base_path, f"{map_name}_Minimap.png")
     jpg_path = os.path.join(base_path, f"{map_name}_Minimap.jpg")
